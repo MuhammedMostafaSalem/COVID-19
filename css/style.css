@@ -10,6 +10,9 @@
 * {
     font-family: 'Roboto Condensed', sans-serif;
 }
+body {
+    height: 20000px !important;
+}
 
 
 
@@ -389,12 +392,12 @@
 
 @media (max-width:1200px) {
     .about-corona .row .card {
-        width: 300px;
+        width: 300px !important;
     }
 }
 @media (max-width:1199px) {
     .about-corona .row .card {
-        width: 250px;
+        width: 250px !important;
     }
 }
 @media (max-width:991px) {
@@ -408,7 +411,7 @@
         padding: 0 150px;
     }
     .about-corona .row .card {
-        width: 280px;
+        width: 280px !important;
     }
     .about-corona .row .card2 {
         margin-left: 30px;
@@ -434,7 +437,7 @@
 }
 @media (max-width: 576px) {
     .about-corona .row .card {
-        width: 220px;
+        width: 220px !important;
     }
     .about-corona .botton a {
         font-size: 13px;
@@ -663,6 +666,19 @@
     color: var(--blue-color-2);
 }
 @media (max-width:1199px) {
+    .prevention-section .row .box {
+        width: 350px;
+    }
+    .prevention-section .row .card2 {
+        margin-left: 50px;
+    }
+    .prevention-section .row .card3 {
+        margin-left: 100px;
+    }
+    .prevention-section .row .card4 {
+        margin-left: -720px;
+        margin-top: 400px;
+    }
     .prevention-section .box .card-body {
         padding: 0 30px;
     }
@@ -673,7 +689,7 @@
         margin-right: 150px;
     }
     .prevention-section .steps img {
-        margin-left: 50px;
+        margin-left: 20px !important;
     }
     .prevention-section .follow-steps .F-Steps img {
         width: 90px;
@@ -686,6 +702,25 @@
     }
 }
 @media (max-width:991px) {
+    .prevention-section .row .card2 {
+        position: relative;
+        margin-left: 0;
+        left: -60px;
+        padding-top: 0 !important;
+    }
+    .prevention-section .row .card3 {
+        position: relative;
+        top: 30px;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .prevention-section .row .card4 {
+        position: relative;
+        left: -60px;
+        top: 30px;
+        margin-left: 0;
+        margin-top: 0;
+    }
     .prevention-section .title h2 {
         font-size: 30px;
     }
@@ -735,8 +770,8 @@
         margin-left: -80px;
     }
     .prevention-section .steps img {
-        margin-top: 50px;
-        margin-left: 150px;
+        margin-top: 50px ;
+        margin-left: 150px !important;
     }
     .prevention-section .steps {
         display: block !important;
@@ -893,6 +928,34 @@
         width: 350px !important;
     }
 }
+@media (max-width: 575px) {
+    .do-donT .botton-content .donTs .donT-l {
+        display: block !important;
+        text-align: center;
+    }
+    .do-donT .botton-content .donTs i {
+        left: 250px !important;
+        top: 94px;
+    }
+    .do-donT .botton-content .donTs .i1 {
+        left: 242px !important;
+    }
+    .do-donT .botton-content .do .donT-r {
+        display: block !important;
+        margin-left: -200px;
+    }
+    .do-donT .botton-content .do i {
+        color: var(--green-color);
+        position: relative;
+        top: 25px;
+        left: -165px;
+        font-size: 20px;
+    }
+    .do-donT .botton-content .do {
+        margin-top: 0;
+        margin-right: 100px;
+    }
+}
 /* end do-&-don't-section */
 
 
@@ -1011,7 +1074,7 @@
 
 /* start FAQ-section */
 .FAQ-section {
-    padding: 80px 0;
+    padding: 80px 0 180px 0;
 }
 .FAQ-section .title {
     padding-bottom: 50px;
@@ -1032,6 +1095,7 @@
     width: 350px;
     font-size: 20px;
     color: var(--blue-color-2);
+    cursor: pointer;
 }
 .FAQ-section .row .tabs p i {
     float: right;
